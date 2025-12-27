@@ -1,0 +1,8 @@
+n = int(input("Enter a value :"))
+m = int(input("Enter b value :"))
+x,max=n,0
+for i in range(x, 0, -1):
+    if n % i == 0 and m % i == 0:
+        if max < i:
+            max=i
+print(max)
