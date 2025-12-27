@@ -1,0 +1,8 @@
+s1 = [1, 2, 5, 7]
+s2 = [3, 6, 8, 10]
+s = s1 + s2
+
+s.sort()
+print(s)
+
+print(sorted(s))
