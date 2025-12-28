@@ -1,0 +1,8 @@
+s=input()
+r=""
+for char in s:
+    if char==" ":
+        r+="%"
+    else:
+        r+=char
+print(r)
