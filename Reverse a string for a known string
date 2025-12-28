@@ -1,0 +1,5 @@
+s="Python"
+t=""
+for i in range(-1,-7,-1):
+    t=t+s[i]
+print(t)
