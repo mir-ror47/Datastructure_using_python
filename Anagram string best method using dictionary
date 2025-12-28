@@ -1,0 +1,15 @@
+s=input().lower().replace(" ","")
+r=input().lower().replace(" ","")
+if len(s)!=len(r):
+    print("Not anagram")
+else:
+    res={}
+    for char in s:
+        res[char]=res.get(char,0)+1
+    for char in r:
+        if char not in res or res[char]==0:
+            print("Not Anagram")
+            break
+        res[char]-=1
+    else:
+        print("Anagram")
