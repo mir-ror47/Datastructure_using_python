@@ -1,0 +1,9 @@
+s=input().lower()
+t=""
+t=s[::-1]
+def check_palindrome(s):
+    for i in range(len(s)):
+        if s[i] is not t[i]:
+            return False
+    return True
+print(check_palindrome(s))
