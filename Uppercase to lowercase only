@@ -1,0 +1,5 @@
+s=input()
+r=""
+for char in s:
+    r+=chr(ord(char)+32)
+print(r)
