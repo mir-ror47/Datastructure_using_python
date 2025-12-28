@@ -1,0 +1,8 @@
+s=input().lower()
+res={}
+for char in s:
+    if char not in res:
+        res[char]=1
+    else:
+        res[char]+=1
+print(res)
