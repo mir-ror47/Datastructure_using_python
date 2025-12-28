@@ -1,4 +1,4 @@
-s="Python"
+s=input()
 t=""
 for i in range(len(s)):
     t=s[i]+t
